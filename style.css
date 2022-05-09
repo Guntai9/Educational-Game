@@ -1,7 +1,27 @@
 body{
-    background-color: pink;
+    
+    background-color: #ebede8;
 }
 
 h1{
-    color:blueviolet;
+    border: 5px outset #39603D;
+    color:#3C403D
+    ;
 }
+
+.flexbox {
+    display: flex;
+    border:2px outset #39603D;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .flexbox>div{
+      font-size: 1.5rem;
+      text-align: center;
+       padding: 40px;
+       margin: 10px;
+       
+       background-color: #DADED4       ;
+        color: #3C403D
+        ;   
+  } 
