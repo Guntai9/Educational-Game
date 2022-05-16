@@ -1,6 +1,8 @@
 body{margin: 60px;
     background-size: contain;
     background-color: #fffbe4;
+    font-family: 'MedievalSharp';
+}
 }
   .responsive {
     width: 25%;
@@ -36,6 +38,13 @@ h1{
     color:#3C403D
     ;
 }
+.myBox{
+    background-color: #f8f3d3;
+    padding: 5px;
+    width: 250px;
+    margin: 25px;
+
+}
 
 img.animated-gif{
     width: 60%;
@@ -64,12 +73,23 @@ img.animated-gif{
       font-size: 1.5rem;
       text-align: center;
        padding: 10px;
-       margin: 20px;
+       margin: 25px;
        background-color: #DADED4;
        transition: all 0.5s ease-in-out;
         box-shadow: 0 5px 5px 0 grey, 0 5px 5px 0 grey;
-                color: #af938c;   
+                color: #ff3300;   
   } 
+  .container {
+    position: relative;               
+                                        
+}
+
+.featureText {
+    position: absolute;  
+    left: 50%;                        
+    top: 50%;                         
+    transform: translate(-50%, -50%); 
+}
   
   .card:hover {
     transform: scale(1.10, 1.10);  }
