@@ -1,6 +1,6 @@
 @font-face{
   font-family: 'blade';
-  src: url(fonts/Blade.ttf) format("truetype");
+  src: url(fonts/blade.ttf) format("truetype");
 }
 
 
@@ -10,8 +10,8 @@
 }
 
 @font-face {
-  font-family: noir;
-  src: url(fonts/noir_medium.ttf);
+  font-family: 'noir';
+  src: url(fonts/noir_medium.ttf format("truetype");
 }
  
 
