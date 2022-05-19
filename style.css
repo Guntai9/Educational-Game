@@ -1,17 +1,17 @@
 @font-face{
   font-family: 'blade';
-  src: url("blade.ttf") format("truetype");
+  src: url("/blade.ttf") format("truetype");
 }
 
 
 @font-face {
   font-family: 'bettynoir' ;
-  src: url("bettynoir.ttf") format("truetype");
+  src: url("/blade.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'noir';
-  src: url("noir_medium.ttf") format("truetype");
+  src: url("/noir_medium.ttf") format("truetype");
 } 
  
 
