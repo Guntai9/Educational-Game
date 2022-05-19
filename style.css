@@ -1,17 +1,17 @@
 @font-face{
   font-family: 'blade';
-  src: url("../../education_game/fonts/blade.ttf") format("truetype");
+  src: url("blade.ttf") format("truetype");
 }
 
 
 @font-face {
   font-family: 'bettynoir' ;
-  src: url("../../education_game/fonts/bettynoir.ttf") format("truetype");
+  src: url("bettynoir.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'noir';
-  src: url("../../education_game/fonts/noir_medium.ttf") format("truetype");
+  src: url("noir_medium.ttf") format("truetype");
 } 
  
 
