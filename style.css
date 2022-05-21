@@ -66,22 +66,20 @@ body{margin: 60px;
   span{
 
     font-size: 60px;
-    color: #9c0214;
+    color: #000000;
     font-family: bettynoir
     
- 
 }
 
 .mybox{
-  position:relative;
-    background-color: #9c0214;
-    padding: 20px;
-    margin: 25px;
-    position: relative;
+  margin-top: 150px;
+  text-align: center;
     font-family: noir;
+    width: 500px;
+    padding: 10px;
+    background-color:#7a1521 ;
     color: #f3bd77;
     font-size: 15px;
-    border: 1.5px solid #7a1521;
   }
 
   
@@ -115,7 +113,7 @@ body{margin: 60px;
 }
 
 .waves .shape-fill {
-  fill: #383434;
+  fill: #7a1521;
   
 }
 
@@ -132,6 +130,7 @@ body{margin: 60px;
   }
 
   .flexbox {
+    margin-top: 35px;
     display: flex;
     float: left;
     width: 25%;
