@@ -90,7 +90,7 @@ body{margin: 60px;
 
 }
 
-.waves{
+.waves1{
   position: absolute;
   top: 0;
   left: 0;
@@ -100,7 +100,7 @@ body{margin: 60px;
   z-index: -5
 }
 
-.waves svg {
+.waves1 svg {
   position: relative;
   display: block;
   width: calc(200% + 1.3px);
@@ -108,7 +108,7 @@ body{margin: 60px;
   transform: rotateY(180deg);
 }
 
-.waves .shape-fill {
+.waves1 .shape-fill {
   fill: #7a1521;
   
 }
@@ -134,13 +134,36 @@ body{margin: 60px;
 .waves2 .shape-fill {
   fill: #166d13;
 }
+.splitbackground{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.splitbackground svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 195px;
+}
+
+.splitbackground .shape-fill {
+  fill: #CE0000;
+}
 
 
 
 .mygif{
   margin: 50px 50px;
+}
 
-  
+.mygifscale{
+  margin: 50px 50px;
+  width: 600px;
+  height: 400px;
 }
 
 .myimg {
