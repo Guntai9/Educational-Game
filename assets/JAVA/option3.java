@@ -32,3 +32,6 @@ public class Interrogation{
     }
     }
     }
+
+    /*CORRECT ANSWER*/ 
+    /*o*/ 

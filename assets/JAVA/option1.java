@@ -1,3 +1,4 @@
+package assets.JAVA;
 import java.util.Scanner;
 public class Interrogation {
 public static void main(String[] args) {
@@ -24,4 +25,4 @@ System.out.println("What am I doing, why am i interrogating a dog?");
 } 
 
 /*CORRECT ANSWER*/
-/*What am I doing, why am i interrogating a dog?/ 
+/*What am I doing, why am i interrogating a dog?*/ 
