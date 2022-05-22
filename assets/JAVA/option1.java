@@ -1,4 +1,5 @@
 package assets.JAVA;
+
 import java.util.Scanner;
 public class Interrogation {
 public static void main(String[] args) {
