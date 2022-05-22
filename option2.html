@@ -1,15 +1,122 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <head>
-            <link rel="stylesheet" href="style.css">
-            <title>option1</title>
-        </head>
-
-        <center><p class="questionBox">Help sherlock solve the mystery by helping him answer the following code below</p></center>
-
-
-
+<head>
+    <title>Game</title>
+    <style type="text/css">
+        @font-face {
+  font-family: 'noir';
+  src: url('./assets/fonts/noir_medium.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} 
         
-    </body>
-</html>
+        body{
+            background-color:rgb(0, 0, 0);
+            text-align: center;
+            margin: 60px;
+        }
+        p{
+            color: #ffffff;
+        }
+        .storytext {
+            width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: larger;
+        }
+        .question {
+            color: #f3bd77;
+            width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: larger;
+        }
+        *{
+            text-align: center;
+        }
+        h1 {
+            color: rgb(182, 12, 12);
+            text-decoration: bold;
+            font-family: fantasy;
+            letter-spacing: 0.20cm;
+        }
+
+        a p{
+            position: relative;
+            color: #f3bd77;
+        }
+        p{
+            font-family: noir;
+        }
+
+        .hm_btn {
+            border: 1px solid #fc5a6d;
+            color: #000000;
+        }
+
+        .hm_about_data a.hm_btn {
+            margin-top: 25px;
+        }
+
+        .hm_btn {
+            margin-top: 25px;
+            color: #000000;
+            height: 45px;
+            text-transform: uppercase;
+            font-size: 17px;
+            display: inline-block;
+            padding: 0px 41px;
+            line-height: 14px;
+            border-radius: 0px;
+            position: relative;
+            overflow: hidden;
+            background-color: #9c0214;
+            border: 1px solid #d6061e;
+            z-index: 1;
+            transition: ease 0.35s all;
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .hm_btn:hover {
+            text-decoration: none;
+            color: #fc5a6d;
+            background-color: #fff;
+        }
+        </style>
+</head>
+<body>
+    <h1>Josh: Suspect 2</h1>
+    <div class="storytext"> <p>Sherlock has told you two matching fingers have been found on the floor of the crimescene.</p>
+    <div class="question"> <pre><code>import java.util.Scanner;
+       
+public class Interrogation {
+public static void main(String[] args) {
+Scanner scnr = new Scanner(System.in);
+int leftHand;
+int rightHand;
+int totalFingers;
+            
+System.out.println("Enter the number of fingers on your left hand");
+leftHand = scnr.nextInt();
+System.out.println("Enter the number of fingers on your right hand");
+rightHand = scnr.nextInt();
+totalFingers = (leftHand + rightHand);
+        
+if(totalFingers != 10) {
+System.out.println("Add this person to our suspect list for further interrogation.");
+}
+if(totalFingers == 10) {
+System.out.println("Keep an eye on this person, but they are not likely to be a suspect.");
+}
+        
+}
+} </pre></code>
+<div class="storytext"> <p>What is the value of "totalFingers", if inputs is 4 5?</p>
+    
+    
+
+    <a href="selectionmenu.html" class="hm_btn"><p>10</p></a> 
+    <a href="selectionmenu.html" class="hm_btn"><p>7</p></a> 
+    <a href="selectionmenu.html" class="hm_btn"><p>5</p></a> 
+    <a href="selectionmenu.html" class="hm_btn"><p>9</p></a> 
+</body>
