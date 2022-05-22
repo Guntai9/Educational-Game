@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <head>
+    <link rel= "stylesheet" href= "style.css">
     <title>Game</title>
-    <style type="text/css">
+    <style type= "text/css">
         @font-face {
   font-family: 'noir';
   src: url('./assets/fonts/noir_medium.ttf') format("truetype");
@@ -11,12 +12,19 @@
         
         body{
             background-color:rgb(0, 0, 0);
-            text-align: center;
             margin: 60px;
         }
+
         p{
             color: #ffffff;
+            text-align: center;
+            font-family: noir;
+        
         }
+
+        
+
+      
         .storytext {
             width: 900px;
             margin-left: auto;
@@ -29,10 +37,9 @@
             margin-left: auto;
             margin-right: auto;
             font-size: larger;
+           
         }
-        *{
-            text-align: center;
-        }
+        
         h1 {
             color: rgb(182, 12, 12);
             text-decoration: bold;
@@ -40,17 +47,10 @@
             letter-spacing: 0.20cm;
         }
 
-        a p{
-            position: relative;
-            color: #f3bd77;
-        }
-        p{
-            font-family: noir;
-        }
-
         .hm_btn {
             border: 1px solid #fc5a6d;
             color: #000000;
+            text-align: center;
         }
 
         .hm_about_data a.hm_btn {
@@ -76,6 +76,10 @@
             transition: ease 0.35s all;
             text-decoration: none;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 35px;
+            display: flex;
+            
+            
         }
 
         .hm_btn:hover {
@@ -87,8 +91,8 @@
 </head>
 <body>
     <h1>Coco: Suspect 1</h1>
-    <div class="storytext"> <p>Barking has been heard on the night of the murder, but the victim owns no pets.</p>
-    <div class="question"> <pre><code>import java.util.Scanner;
+    <div class= "storytext"> <p>Barking has been heard on the night of the murder, but the victim owns no pets.</p>
+    <div class= "question"> <pre><code>import java.util.Scanner;
 public class Interrogation {
 public static void main(String[] args) {
 Scanner scnr = new Scanner(System.in);
@@ -112,12 +116,12 @@ System.out.println("What am I doing, why am i interrogating a dog?");
 }
 }
 } </pre></code>
-<div class="storytext"> <p>If the user inputs Yes. What is the output?</p>
-    
-    
 
-    <a href="selectionmenu.html" class="hm_btn"><p>This dog is definitely suspicious!</p></a> 
-    <a href="selectionmenu.html" class="hm_btn"><p>What am I doing, why am i interrogating a dog?</p></a> 
-    <a href="selectionmenu.html" class="hm_btn"><p>This dog is definitely suspicious!</p></a> 
-    <a href="selectionmenu.html" class="hm_btn"><p>No user output</p></a> 
+<div class= "storytext"> <p>If the user inputs Yes. What is the output?</p>
+    
+    
+    <a href= "incorrect.html" class= "hm_btn"><p>This dog is definitely suspicious!</p></a>
+    <a href= "incorrect.html" class= "hm_btn"><p>What am I doing, why am i interrogating a dog?</p></a> 
+    <a href= "gameover1.html" class= "hm_btn"><p>This dog is definitely suspicious!</p></a> 
+    <a href= "incorrect.html" class= "hm_btn"><p>No user output</p></a> 
 </body>
